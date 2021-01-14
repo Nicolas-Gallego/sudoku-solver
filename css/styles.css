@@ -1,0 +1,61 @@
+body {
+    background-color: aliceblue;
+    
+}
+#btnGenerate {
+    margin-top: 8px;
+}
+#sudokuGrid {
+    padding: 8px 0px 8px 0px;
+margin-left: 242px;
+}
+
+.border-top-big {
+    border-top: 2px solid black;
+}
+
+.border-top-big2 {
+    border-top: 1px solid rgb(100, 100, 100);
+}
+
+.border-bottom-big {
+    border-bottom: 2px solid black;
+}
+
+.border-left-big {
+    border-left: 2px solid black;
+}
+
+.border-right-big {
+    border-right: 2px solid rgb(100, 100, 100);
+}
+
+.border-bottom-light {
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.border-left-light {
+    border-left: 1px solid rgb(100, 100, 100);
+}
+
+.border-top-light {
+    border-top: 1px solid rgb(100, 100, 100);
+}
+
+.border-bottom-light {
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+#sudokuGrid {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.col-1 {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    padding-top:2px ;
+    flex: none;
+}
